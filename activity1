@@ -1,0 +1,26 @@
+gutom= ["Hotdog","Ham","Egg"]
+computer_games=["Dota2","ML","LOL"]
+
+gutom.pop(2)
+print("Favorite food?:", gutom,"\n")
+
+computer_games.insert(0,"HOK")
+computer_games.append("Dota2")
+print("Newbie Game:\n", computer_games,"\n")
+
+names = computer_games + gutom
+print("Random Text in Section are the following:\n", names,"\n","\n")
+
+names.sort()
+print("Sorted Names:",names,"\n")
+
+result = gutom is computer_games
+print("Random?:", result,"\n")
+
+pwends=gutom
+print("Tummy is hungry:?", gutom is pwends,"\n")
+
+computer_games.clear()
+gutom.clear()
+x= gutom + computer_games
+print("ambot?:",x)
